@@ -121,14 +121,52 @@ c2=averg(78,43);
 
 // Conditaional Statement : 
 var age =34;
-// Single if Statement : 
-if(age>18){
-    console.log("You can vote for election");
+
+// 1.Single if Statement : 
+// if(age>18){
+//     console.log("You can vote for election");
+// }
+
+// 2.if - else Statement : 
+// if(age>18){
+//     console.log("You can vote for election");
+// }else{
+//     console.log("You cannot vote for election");
+// }
+
+// 3.if-elseif Ladder
+// if(age>18){
+//     console.log("Eligible for Drink..")
+// }else if(age>50){
+//     console.log("Not Good For Health..")
+// }else if(age>65){
+//     console.log("Time to spend time with family..")
+// }else{
+//     console.log("Death..")
+// }
+
+// console.log("End of Ladder..")
+
+
+// Loops 
+// for Loop: 
+var arr=[11,12,13,14,15,16,17,18,19,20];
+// for(var i=0 ; i<arr.length ; i++){
+//     console.log(`Element at index ${i}:`,arr[i]);
+// }
+
+// forEach() Loop:
+
+// arr.forEach(function(element){
+//     console.log(element);
+// })
+
+// While Loop:
+let j=0;
+
+while(j<arr.length){
+    console.log(arr[j]);
+    j++;
 }
 
-// if - else Statement : 
-if(age>18){
-    console.log("You can vote for election");
-}else{
-    console.log("You cannot vote for election");
-}
+// break And continue Statement
