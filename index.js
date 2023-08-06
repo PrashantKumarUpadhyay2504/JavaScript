@@ -164,9 +164,54 @@ var arr=[11,12,13,14,15,16,17,18,19,20];
 // While Loop:
 let j=0;
 
-while(j<arr.length){
-    console.log(arr[j]);
-    j++;
-}
+// while(j<arr.length){
+//     console.log(arr[j]);
+//     j++;
+// }
 
 // break And continue Statement
+
+// var arr1=[1,2,3,4,5,6,7,8,9,10];
+
+// for ( var k = 0;k < arr1.length;k++) {
+//     if(k==5){
+//         // break;
+//         continue
+//     }
+//     console.log(arr1[k]);
+// }
+
+// Array Methods 
+// let myArr=["Fan", "Car", null, true]
+// console.log(myArr.length);
+// myArr.pop();
+// myArr.push("Piyush");
+// console.log(myArr.toString());
+// myArr.shift();
+// myArr.unshift("Raj");
+// console.log(myArr)
+
+// String Method in JavaScript 
+let Str="Hello Everyone, this is Prashant Kumar Upadhyay";
+// console.log(str.length);
+// Str+=" I am a Student of GLA University";
+// console.log(Str.indexOf("Prashant"));
+// console.log(Str.slice(0,4));
+// console.log(Str.replace("Prashant","Piyush"))
+// console.log(Str)
+
+
+// Dates in JavaSript: 
+let mydate=new Date();
+// console.log(mydate);
+// console.log(mydate.getTime());
+// console.log(mydate.getFullYear());
+// console.log(mydate.getDay());
+// console.log(mydate.getMinutes());
+// console.log(mydate.getHours());
+
+
+
+
+
+
