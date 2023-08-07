@@ -36,7 +36,7 @@ var b=false;
 // console.log(a,b);
 
 // Undefined
-// var end=undefined
+var end=undefined
 var end;
 // console.log(end);
 
@@ -182,13 +182,13 @@ let j=0;
 // }
 
 // Array Methods 
-// let myArr=["Fan", "Car", null, true]
+let myArr=["Fan", "Car", null, true]
 // console.log(myArr.length);
-// myArr.pop();
-// myArr.push("Piyush");
+myArr.pop();
+myArr.push("Piyush");
 // console.log(myArr.toString());
-// myArr.shift();
-// myArr.unshift("Raj");
+myArr.shift();
+myArr.unshift("Raj");
 // console.log(myArr)
 
 // String Method in JavaScript 
