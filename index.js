@@ -244,18 +244,18 @@ sel=document.querySelectorAll('.container');
 // console.log(sel);  // It shows nodelist of Element (class)
 
 
-function clicked(){
-    console.log("The Button has Clicked..");
-}
+// function clicked(){
+//     console.log("The Button has Clicked..");
+// }
 
-window.onload = ()=>{
-    console.log("The Document has Loaded");
-}
-// Event in JavaScript : 
+// window.onload = ()=>{
+//     console.log("The Document has Loaded");
+// }
+// // Event in JavaScript : 
 
-container.addEventListener('click' , ()=>{
-    console.log("Button has Clicked..");
-})
+// container.addEventListener('click' , ()=>{
+//     console.log("Button has Clicked..");
+// })
 
 // container.addEventListener('mouseover' , ()=>{
 //     console.log("Mouse on Container.");
@@ -273,3 +273,23 @@ container.addEventListener('click' , ()=>{
 //     console.log("Mouse down when clicked on Container");
 // })
 
+// Arrow Function 
+
+function summ(a ,b){
+    return a+ b;
+}
+
+// summ = ()=>{
+//     return a+b;
+// }
+
+// SetTimeout and setinterval
+
+logkaro= ()=>{
+    // document.querySelector('.container')[0].innerText="<b> Set Interval fired </b>"
+    console.log("loged in ")
+}
+
+clr = setTimeout(logkaro,2000);
+clr = setInterval(logkaro,2000);
+// use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
