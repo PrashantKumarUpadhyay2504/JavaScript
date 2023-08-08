@@ -279,17 +279,17 @@ function summ(a ,b){
     return a+ b;
 }
 
-// summ = ()=>{
-//     return a+b;
-// }
+summ = ()=>{
+    return a+b;
+}
 
 // SetTimeout and setinterval
 
-logkaro= ()=>{
-    // document.querySelector('.container')[0].innerText="<b> Set Interval fired </b>"
-    console.log("loged in ")
-}
+// logkaro= ()=>{
+//     // document.querySelector('.container')[0].innerText="<b> Set Interval fired </b>"
+//     console.log("loged in ")
+// }
 
-clr = setTimeout(logkaro,2000);
-clr = setInterval(logkaro,2000);
+// clr = setTimeout(logkaro,2000);
+// clr = setInterval(logkaro,2000);
 // use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
