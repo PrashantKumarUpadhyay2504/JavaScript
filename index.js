@@ -210,8 +210,66 @@ let mydate=new Date();
 // console.log(mydate.getMinutes());
 // console.log(mydate.getHours());
 
+// DOM Manipulation
+
+let elem = document.getElementById('btn');
+// console.log(elem);
+
+let elemClass = document.getElementsByClassName('container')
+// console.log(elemClass);
+// elemClass[0].style.background="yellow";
 
 
+// console.log(elem.innerText);
+// console.log(elem.innerHTML);
+
+// console.log(elemClass[0].innerText);
+// console.log(elemClass[0].innerHTML);
 
 
+tn= document.getElementsByTagName('div');
+// console.log(tn);
+createdElement = document.createElement('p');
+createdElement.innerText="This is a new paragraph which created by javaScript .";
+tn[0].appendChild(createdElement);
+createdElement2 = document.createElement('b');
+createdElement2.innerText="This is bold";
+tn[0].replaceChild(createdElement2,createdElement); 
+// removeChild(Element)----> Remove an Element 
+
+// Selecting using Query 
+sel=document.querySelector('.container'); 
+// console.log(sel);  // It shows only the element (class)
+sel=document.querySelectorAll('.container');
+// console.log(sel);  // It shows nodelist of Element (class)
+
+
+function clicked(){
+    console.log("The Button has Clicked..");
+}
+
+window.onload = ()=>{
+    console.log("The Document has Loaded");
+}
+// Event in JavaScript : 
+
+container.addEventListener('click' , ()=>{
+    console.log("Button has Clicked..");
+})
+
+// container.addEventListener('mouseover' , ()=>{
+//     console.log("Mouse on Container.");
+// })
+
+// container.addEventListener('mouseout' , ()=>{
+//     console.log("Mouse out of Container.");
+// })
+
+// container2.addEventListener('mouseup' , ()=>{
+//     console.log("Mouse up when clicked on Container");
+// })
+
+// container2.addEventListener('mouseup' , ()=>{
+//     console.log("Mouse down when clicked on Container");
+// })
 
