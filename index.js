@@ -293,3 +293,13 @@ summ = ()=>{
 // clr = setTimeout(logkaro,2000);
 // clr = setInterval(logkaro,2000);
 // use clearInterval(clr)/clearTimeout(clr) to cancel setInterval/setTimeout
+
+
+// Javascript LocalStorage
+
+// localStorage.setItem("name","Piyush");
+// localStorage.getItem("name");
+// localStorage.removeItem("name")
+// localStorage.clear()
+
+
